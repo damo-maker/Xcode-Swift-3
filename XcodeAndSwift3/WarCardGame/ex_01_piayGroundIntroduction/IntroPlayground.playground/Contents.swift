@@ -6,7 +6,7 @@ var str = "Hello, playground"
 
 var message = "Hello World"
 
-print("Hello World")
+print(message)
 
 var a = 15
 var b = 10
