@@ -20,14 +20,14 @@ class Person {
 var b = Person()    // outputs "New person initialized"
 b.sayCheese()       // outputs "Cheese"
 
-var firstPerson = Person()
+var firstPerson = Person()   // outputs "New person initialized"
 
-print(firstPerson.Name)
+print(firstPerson.Name)      // outputs "Initial Name"
 firstPerson.Name = "Alice"
-print(firstPerson.Name)
+print(firstPerson.Name)      // outputs "Alice"
 
-var secondPerson = Person()
+var secondPerson = Person()  // outputs "New person initialized"
 
 secondPerson.Name = "Bob"
-print(secondPerson.Name)
-print(firstPerson.Name)
+print(secondPerson.Name)     // outputs "Bob"
+print(firstPerson.Name)      // outputs "Alice"
