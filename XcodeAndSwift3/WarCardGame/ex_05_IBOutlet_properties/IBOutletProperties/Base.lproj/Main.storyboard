@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WarCardGame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IBOutletProperties" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -83,6 +83,12 @@
                             <constraint firstAttribute="trailing" secondItem="dyY-sl-SA6" secondAttribute="trailing" constant="-3" id="wu9-8I-Ryr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="dyY-sl-SA6" id="DOj-Se-Yya"/>
+                        <outlet property="firstCardImageView" destination="pHc-75-XiV" id="wyB-ua-qsi"/>
+                        <outlet property="playRoundButton" destination="zIy-bF-EPm" id="aMR-mh-HO3"/>
+                        <outlet property="secondCardImageView" destination="4AA-dU-Mpy" id="u7s-me-hSV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
