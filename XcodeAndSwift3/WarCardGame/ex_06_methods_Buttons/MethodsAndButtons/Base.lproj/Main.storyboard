@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IBOutletProperties" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MethodsAndButtons" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -61,6 +61,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIy-bF-EPm" userLabel="PlayRoundButton">
                                         <rect key="frame" x="149" y="109" width="77" height="30"/>
                                         <state key="normal" title="Play Round"/>
+                                        <connections>
+                                            <action selector="playRoundTappedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TkM-5z-9SN"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
