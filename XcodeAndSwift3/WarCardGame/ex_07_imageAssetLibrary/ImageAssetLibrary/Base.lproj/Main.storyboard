@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MethodsAndButtons" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ImageAssetLibrary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,24 +21,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dyY-sl-SA6" userLabel="BacksroundImage">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="dyY-sl-SA6" userLabel="BacksroundImage">
                                 <rect key="frame" x="0.0" y="0.0" width="378" height="667"/>
-                                <color key="backgroundColor" red="0.046056068667013728" green="0.53116987179487185" blue="0.1767990508539814" alpha="0.59857219827586206" colorSpace="calibratedRGB"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dca-ZX-alu" userLabel="CardContainerView">
                                 <rect key="frame" x="48" y="249" width="280" height="170"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4AA-dU-Mpy" userLabel="SecondCardImage">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="4AA-dU-Mpy" userLabel="SecondCardImage">
                                         <rect key="frame" x="160" y="0.0" width="120" height="170"/>
-                                        <color key="backgroundColor" red="0.15126114740875024" green="0.2834917457580341" blue="0.78495592948717952" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="170" id="6ah-aS-no0" userLabel="height = 170 -SeconCardImage"/>
                                             <constraint firstAttribute="width" constant="120" id="8HM-SQ-F8W" userLabel="width = 120 = SeccondCardImage"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pHc-75-XiV" userLabel="FirstCardImage">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="pHc-75-XiV" userLabel="FirstCardImage">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="170"/>
-                                        <color key="backgroundColor" red="0.78495592948717952" green="0.13740946456265343" blue="0.10771676721474996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="170" id="TuK-0p-RGu" userLabel="height = 170 - FirstCardImage"/>
                                             <constraint firstAttribute="width" constant="120" id="v2g-pL-rlm" userLabel="width = 120 - FirstCardImage"/>
@@ -95,7 +92,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="520.79999999999995" y="417.8410794602699"/>
+            <point key="canvasLocation" x="-33" y="161"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="1134" height="1700"/>
+        <image name="cardBack" width="340" height="482"/>
+    </resources>
 </document>
