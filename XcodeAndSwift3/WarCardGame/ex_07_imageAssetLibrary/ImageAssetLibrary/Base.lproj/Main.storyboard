@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G22010" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MethodsAndButtons" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dyY-sl-SA6" userLabel="BacksroundImage">
+                                <rect key="frame" x="0.0" y="0.0" width="378" height="667"/>
+                                <color key="backgroundColor" red="0.046056068667013728" green="0.53116987179487185" blue="0.1767990508539814" alpha="0.59857219827586206" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dca-ZX-alu" userLabel="CardContainerView">
+                                <rect key="frame" x="48" y="249" width="280" height="170"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4AA-dU-Mpy" userLabel="SecondCardImage">
+                                        <rect key="frame" x="160" y="0.0" width="120" height="170"/>
+                                        <color key="backgroundColor" red="0.15126114740875024" green="0.2834917457580341" blue="0.78495592948717952" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="170" id="6ah-aS-no0" userLabel="height = 170 -SeconCardImage"/>
+                                            <constraint firstAttribute="width" constant="120" id="8HM-SQ-F8W" userLabel="width = 120 = SeccondCardImage"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pHc-75-XiV" userLabel="FirstCardImage">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="170"/>
+                                        <color key="backgroundColor" red="0.78495592948717952" green="0.13740946456265343" blue="0.10771676721474996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="170" id="TuK-0p-RGu" userLabel="height = 170 - FirstCardImage"/>
+                                            <constraint firstAttribute="width" constant="120" id="v2g-pL-rlm" userLabel="width = 120 - FirstCardImage"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="16d-aq-X5l"/>
+                                    <constraint firstItem="pHc-75-XiV" firstAttribute="leading" secondItem="dca-ZX-alu" secondAttribute="leading" id="LH7-UB-o8C"/>
+                                    <constraint firstAttribute="width" constant="280" id="O96-cN-cbb"/>
+                                    <constraint firstItem="4AA-dU-Mpy" firstAttribute="width" secondItem="pHc-75-XiV" secondAttribute="width" id="Yxb-Y1-ZKD"/>
+                                    <constraint firstAttribute="trailing" secondItem="4AA-dU-Mpy" secondAttribute="trailing" id="eN4-Z0-0g3"/>
+                                    <constraint firstItem="pHc-75-XiV" firstAttribute="top" secondItem="dca-ZX-alu" secondAttribute="top" id="iHi-f3-29f"/>
+                                    <constraint firstItem="pHc-75-XiV" firstAttribute="top" secondItem="4AA-dU-Mpy" secondAttribute="top" id="xW2-P5-1k3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jtV-aE-L0V" userLabel="PlayButtonContainer">
+                                <rect key="frame" x="0.0" y="419" width="375" height="248"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIy-bF-EPm" userLabel="PlayRoundButton">
+                                        <rect key="frame" x="149" y="109" width="77" height="30"/>
+                                        <state key="normal" title="Play Round"/>
+                                        <connections>
+                                            <action selector="playRoundTappedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TkM-5z-9SN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="zIy-bF-EPm" firstAttribute="centerY" secondItem="jtV-aE-L0V" secondAttribute="centerY" id="R7L-i6-gEn"/>
+                                    <constraint firstItem="zIy-bF-EPm" firstAttribute="centerX" secondItem="jtV-aE-L0V" secondAttribute="centerX" id="ZDY-RP-syS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dca-ZX-alu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lys-Q6-dm0"/>
+                            <constraint firstItem="dyY-sl-SA6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="R8i-Fa-od3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jtV-aE-L0V" secondAttribute="bottom" id="UuG-sf-0j2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dyY-sl-SA6" secondAttribute="bottom" id="WYg-dr-mgF"/>
+                            <constraint firstItem="jtV-aE-L0V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cGH-1V-cZc"/>
+                            <constraint firstItem="dca-ZX-alu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jOO-O8-hM5"/>
+                            <constraint firstItem="dyY-sl-SA6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="p4I-q0-RKl"/>
+                            <constraint firstAttribute="trailing" secondItem="jtV-aE-L0V" secondAttribute="trailing" id="pEb-WW-KYH"/>
+                            <constraint firstItem="jtV-aE-L0V" firstAttribute="top" secondItem="dca-ZX-alu" secondAttribute="bottom" id="su6-63-Xif"/>
+                            <constraint firstAttribute="trailing" secondItem="dyY-sl-SA6" secondAttribute="trailing" constant="-3" id="wu9-8I-Ryr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="dyY-sl-SA6" id="DOj-Se-Yya"/>
+                        <outlet property="firstCardImageView" destination="pHc-75-XiV" id="wyB-ua-qsi"/>
+                        <outlet property="playRoundButton" destination="zIy-bF-EPm" id="aMR-mh-HO3"/>
+                        <outlet property="secondCardImageView" destination="4AA-dU-Mpy" id="u7s-me-hSV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="520.79999999999995" y="417.8410794602699"/>
+        </scene>
+    </scenes>
+</document>
