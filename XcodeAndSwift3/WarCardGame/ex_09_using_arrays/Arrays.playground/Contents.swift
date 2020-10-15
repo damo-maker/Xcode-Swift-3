@@ -1,27 +1,27 @@
-//: Playground - noun: a place where people can play
-
-import UIKit
-
-var str = "Hello, playground"
+import Cocoa
 
 var myArray: [String] = ["Book", "cat", "dog"]
-myArray[0]
 
-myArray.count
-myArray.insert("dinosaur", atIndex: 0)
+print(myArray[0])
+print(myArray.count)
 
-myArray.count
-myArray[0]
+myArray.insert("dinosaur", at: 0)
+print(myArray)
+print(myArray.count)
+print(myArray[0])
 
 myArray.append("tree")
+print(myArray)
 myArray += ["elephant", "truck"]
+print(myArray)
+print(myArray.count)
 
-myArray.count
-myArray.removeAtIndex(1)
-myArray
+myArray.remove(at: 1)
+print(myArray)
 
 var mySecondArray: [Int] = [Int]()
 mySecondArray.append(3)
 
-mySecondArray.count
-mySecondArray[0]
+print(mySecondArray)
+print(mySecondArray.count)
+print(mySecondArray[0])
