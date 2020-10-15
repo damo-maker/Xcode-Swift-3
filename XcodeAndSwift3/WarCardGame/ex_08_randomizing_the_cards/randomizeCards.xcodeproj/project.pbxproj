@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F18F55282478223900E40D46 /* ImageAssetLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageAssetLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18F55282478223900E40D46 /* randomizeCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomizeCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18F552B2478223900E40D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F18F552D2478223900E40D46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F18F55302478223A00E40D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		F18F55292478223900E40D46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F18F55282478223900E40D46 /* ImageAssetLibrary.app */,
+				F18F55282478223900E40D46 /* randomizeCards.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F18F55272478223900E40D46 /* ImageAssetLibrary */ = {
+		F18F55272478223900E40D46 /* randomizeCards */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F18F553A2478223A00E40D46 /* Build configuration list for PBXNativeTarget "ImageAssetLibrary" */;
+			buildConfigurationList = F18F553A2478223A00E40D46 /* Build configuration list for PBXNativeTarget "randomizeCards" */;
 			buildPhases = (
 				F18F55242478223900E40D46 /* Sources */,
 				F18F55252478223900E40D46 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = ImageAssetLibrary;
+			name = randomizeCards;
 			productName = WarCardGame;
-			productReference = F18F55282478223900E40D46 /* ImageAssetLibrary.app */;
+			productReference = F18F55282478223900E40D46 /* randomizeCards.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F18F55232478223900E40D46 /* Build configuration list for PBXProject "ImageAssetLibrary" */;
+			buildConfigurationList = F18F55232478223900E40D46 /* Build configuration list for PBXProject "randomizeCards" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F18F55272478223900E40D46 /* ImageAssetLibrary */,
+				F18F55272478223900E40D46 /* randomizeCards */,
 			);
 		};
 /* End PBXProject section */
@@ -271,7 +271,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F18F55232478223900E40D46 /* Build configuration list for PBXProject "ImageAssetLibrary" */ = {
+		F18F55232478223900E40D46 /* Build configuration list for PBXProject "randomizeCards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F18F55382478223A00E40D46 /* Debug */,
@@ -280,7 +280,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F18F553A2478223A00E40D46 /* Build configuration list for PBXNativeTarget "ImageAssetLibrary" */ = {
+		F18F553A2478223A00E40D46 /* Build configuration list for PBXNativeTarget "randomizeCards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F18F553B2478223A00E40D46 /* Debug */,
