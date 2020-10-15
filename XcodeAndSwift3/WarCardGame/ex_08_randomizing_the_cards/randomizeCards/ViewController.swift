@@ -29,8 +29,17 @@ class ViewController: UIViewController {
     
     @IBAction func playRoundTapped(_sender: UIButton) {
         
-        self.firstCardImageView.image = UIImage(named: "card1")
-        self.secondCardImageView.image = UIImage(named: "card11")
+        // Randomize left number from 2 to 10
+        let leftNumber = arc4random_uniform(9) + 2
+        
+        // Set the left image
+        self.firstCardImageView.image = UIImage(named: "card\(leftNumber)")
+        
+        // Randomize rightNumber from 2 to 10
+        let rightNumber = arc4random_uniform(9) + 2
+        
+        // Set the right image
+        self.secondCardImageView.image = UIImage(named: "card\(rightNumber)")
     }
 }
 

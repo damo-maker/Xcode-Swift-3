@@ -38,7 +38,7 @@
 		F18F551F2478223900E40D46 = {
 			isa = PBXGroup;
 			children = (
-				F18F552A2478223900E40D46 /* ImageAssetLibrary */,
+				F18F552A2478223900E40D46 /* randomizeCards */,
 				F18F55292478223900E40D46 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F18F552A2478223900E40D46 /* ImageAssetLibrary */ = {
+		F18F552A2478223900E40D46 /* randomizeCards */ = {
 			isa = PBXGroup;
 			children = (
 				F18F552B2478223900E40D46 /* AppDelegate.swift */,
@@ -61,7 +61,7 @@
 				F18F55342478223A00E40D46 /* LaunchScreen.storyboard */,
 				F18F55372478223A00E40D46 /* Info.plist */,
 			);
-			path = ImageAssetLibrary;
+			path = randomizeCards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,9 +248,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ImageAssetLibrary/Info.plist;
+				INFOPLIST_FILE = randomizeCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.damianjohns.ImageAssetLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.damianjohns.randomizeCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -260,9 +260,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ImageAssetLibrary/Info.plist;
+				INFOPLIST_FILE = randomizeCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.damianjohns.ImageAssetLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.damianjohns.randomizeCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
