@@ -11,17 +11,26 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var firstCardImageView: UIImageView!
+    @IBOutlet weak var leftScoreLabel: UILabel!
+    var leftScore = 0
+    
     @IBOutlet weak var secondCardImageView: UIImageView!
+    @IBOutlet weak var rightScoreLabel: UILabel!
+    var rightScore = 0
+    
     @IBOutlet weak var playRoundButton: UIButton!
     @IBOutlet weak var backgroundImageView: UIImageView!
     
-    let cardNames = ["ace", "card2", "card3", "card4", "card5", "card6", "card7", "card8", "card9", "card10", "jack", "queen", "king" ]
+    
+    
+    
+    let cardNames = ["card2", "card3", "card4", "card5", "card6", "card7", "card8", "card9", "card10", "jack", "queen", "king", "ace"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.playRoundButton.setTitle("Play", for: UIControlState.normal)
+        self.playRoundButton.setTitle("DEAL!", for: UIControlState.normal)
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,10 +55,23 @@ class ViewController: UIViewController {
         // Compare the card numbers
         if leftNumber > rightNumber {
             // Left card wins
+            
+            // Increment the score
+            leftScore += 1
+            
+            // Update the label
+            leftScoreLabel.text = String(leftScore)
+            
         } else if leftNumber == rightNumber {
             // It's a tie
         } else {
             // Right card wins
+            
+            // Increment the score
+            rightScore += 1
+            
+            // Update the label
+            rightScoreLabel.text = String(rightScore)
         }
     }
 }
