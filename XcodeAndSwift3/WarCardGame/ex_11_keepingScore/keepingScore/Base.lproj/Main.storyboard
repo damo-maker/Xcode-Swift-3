@@ -56,12 +56,12 @@
                                 <rect key="frame" x="0.0" y="347" width="375" height="324"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIy-bF-EPm" userLabel="PlayRoundButton">
-                                        <rect key="frame" x="149" y="25" width="77" height="30"/>
+                                        <rect key="frame" x="149" y="25" width="77" height="31"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="77" id="vO8-v7-KVk"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                        <state key="normal" title="DEAL">
+                                        <state key="normal" title="DEAL!">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
