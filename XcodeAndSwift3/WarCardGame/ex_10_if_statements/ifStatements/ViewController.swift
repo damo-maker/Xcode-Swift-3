@@ -42,6 +42,15 @@ class ViewController: UIViewController {
         
         // Set the right image
         self.secondCardImageView.image = UIImage(named: cardNames[rightNumber])
+        
+        // Compare the card numbers
+        if leftNumber > rightNumber {
+            // Left card wins
+        } else if leftNumber == rightNumber {
+            // It's a tie
+        } else {
+            // Right card wins
+        }
     }
 }
 
