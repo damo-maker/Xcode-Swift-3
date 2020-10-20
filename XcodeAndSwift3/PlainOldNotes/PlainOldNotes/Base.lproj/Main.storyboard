@@ -35,7 +35,11 @@
                         </constraints>
                     </view>
                     <connections>
+<<<<<<< HEAD
                         <outlet property="table" destination="Pny-7e-szp" id="MYC-bG-0eF"/>
+=======
+                        <outlet property="table" destination="Pny-7e-szp" id="1fx-d3-XaZ"/>
+>>>>>>> 53d5761162e52525d1b2d49f945b92d9b9eee1fa
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
