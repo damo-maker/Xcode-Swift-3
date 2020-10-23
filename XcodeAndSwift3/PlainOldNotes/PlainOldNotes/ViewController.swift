@@ -20,8 +20,17 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         table.dataSource = self
         self.title = "Notes"
-        //self.navigationController?.navigationBar.prefersLargeTitles = true
-        //prefersLargeTitles does not work in Swift 3.0.2
+        // self.navigationController?.navigationBar.prefersLargeTitles = true
+        // prefersLargeTitles method does not work in Swift 3.0.2
+        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addNote))
+        self.navigationItem.rightBarButtonItem = addButton
+    }
+    
+    @objc func addNote() {
+        let name: String = "Item \(data.count + 1)"
+        data.insert(name, at: 0)
+        let indexPath: IndexPath = IndexPath(row: 0, section: 0)
+        table.insertRows(at: [indexPath], with: .automatic)
     }
     
     func tableView(_ tableView: UITableView,  numberOfRowsInSection section: Int) -> Int {
