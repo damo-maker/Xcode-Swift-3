@@ -19,9 +19,12 @@ class ViewController: UIViewController, UITableViewDataSource {
         // Do any additional setup after loading the view, typically from a nib.
         
         table.dataSource = self
+        self.title = "Notes"
+        //self.navigationController?.navigationBar.prefersLargeTitles = true
+        //prefersLargeTitles does not work in Swift 3.0.2
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView,  numberOfRowsInSection section: Int) -> Int {
         return data.count
     }
     
