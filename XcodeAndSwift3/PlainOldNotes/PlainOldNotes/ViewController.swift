@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var table: UITableView!
     
@@ -20,6 +20,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         // Do any additional setup after loading the view, typically from a nib.
         
         table.dataSource = self
+        table.delegate = self
         self.title = "Notes"
         // self.navigationController?.navigationBar.prefersLargeTitles = true
         // prefersLargeTitles method does not work in Swift 3.0.2
@@ -63,6 +64,10 @@ class ViewController: UIViewController, UITableViewDataSource {
         data.remove(at: indexPath.row)
         table.deleteRows(at: [indexPath], with: .fade)
         save()
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("\(data[indexPath.row])")
     }
     
     func save() {
