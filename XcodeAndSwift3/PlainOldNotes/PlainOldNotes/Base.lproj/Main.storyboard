@@ -57,7 +57,7 @@
         <!--Note-->
         <scene sceneID="ilt-gk-Ypi">
             <objects>
-                <viewController title="Note" id="CWy-FY-t2s" sceneMemberID="viewController">
+                <viewController title="Note" id="CWy-FY-t2s" customClass="DetailViewController" customModule="PlainOldNotes" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4fq-fe-CoJ"/>
                         <viewControllerLayoutGuide type="bottom" id="0l5-05-ybk"/>
@@ -82,6 +82,9 @@
                             <constraint firstItem="it5-Ei-rKf" firstAttribute="bottom" secondItem="0l5-05-ybk" secondAttribute="top" id="XNE-Cl-2LE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="it5-Ei-rKf" id="j4b-YS-p6S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1E-Yp-jaj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
