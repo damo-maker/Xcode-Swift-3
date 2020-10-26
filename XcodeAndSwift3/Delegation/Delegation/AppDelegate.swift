@@ -9,10 +9,14 @@
 import Cocoa
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate, NSComboBoxDelegate {
 
     @IBOutlet weak var window: NSWindow!
 
+    func comboBoxSelectionDidChange(_ notification: Notification) {
+        let combo: NSComboBox = notification.object as! NSComboBox
+        print(combo.objectValueOfSelectedItem!)
+    }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
@@ -22,7 +26,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidBecomeActive(_ notification: Notification) {
         print("active!")
     }
-
+    
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
         print("app will terminate")
