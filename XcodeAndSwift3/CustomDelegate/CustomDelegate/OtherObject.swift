@@ -8,6 +8,8 @@
 
 import Cocoa
 
-class OtherObject: NSObject {
-
+class OtherObject: NSObject, CustomDelegate {
+    func CustomDelegateExample() {
+        print("delegation is working")
+    }
 }

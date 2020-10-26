@@ -10,6 +10,7 @@
 		F1AC85C62546F18B004EA214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC85C52546F18B004EA214 /* AppDelegate.swift */; };
 		F1AC85C82546F18B004EA214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1AC85C72546F18B004EA214 /* Assets.xcassets */; };
 		F1AC85CB2546F18B004EA214 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1AC85C92546F18B004EA214 /* MainMenu.xib */; };
+		F1AC85D32546F416004EA214 /* OtherObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC85D22546F416004EA214 /* OtherObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		F1AC85C72546F18B004EA214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1AC85CA2546F18B004EA214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F1AC85CC2546F18B004EA214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AC85D22546F416004EA214 /* OtherObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				F1AC85C52546F18B004EA214 /* AppDelegate.swift */,
+				F1AC85D22546F416004EA214 /* OtherObject.swift */,
 				F1AC85C72546F18B004EA214 /* Assets.xcassets */,
 				F1AC85C92546F18B004EA214 /* MainMenu.xib */,
 				F1AC85CC2546F18B004EA214 /* Info.plist */,
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1AC85C62546F18B004EA214 /* AppDelegate.swift in Sources */,
+				F1AC85D32546F416004EA214 /* OtherObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +286,7 @@
 				F1AC85D12546F18B004EA214 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
