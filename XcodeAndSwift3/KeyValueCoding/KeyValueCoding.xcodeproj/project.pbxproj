@@ -36,7 +36,7 @@
 		F15B010B254AA70600F03654 = {
 			isa = PBXGroup;
 			children = (
-				F15B0116254AA70800F03654 /* KeyValueBinding */,
+				F15B0116254AA70800F03654 /* KeyValueCoding */,
 				F15B0115254AA70800F03654 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,9 +47,10 @@
 				F15B0114254AA70800F03654 /* KeyValueCoding.app */,
 			);
 			name = Products;
+			path = KeyValueCoding;
 			sourceTree = "<group>";
 		};
-		F15B0116254AA70800F03654 /* KeyValueBinding */ = {
+		F15B0116254AA70800F03654 /* KeyValueCoding */ = {
 			isa = PBXGroup;
 			children = (
 				F15B0117254AA70800F03654 /* AppDelegate.swift */,
@@ -58,6 +59,7 @@
 				F15B011B254AA70800F03654 /* MainMenu.xib */,
 				F15B011E254AA70800F03654 /* Info.plist */,
 			);
+			name = KeyValueCoding;
 			path = KeyValueBinding;
 			sourceTree = "<group>";
 		};
@@ -248,7 +250,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = KeyValueBinding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.damianjohns.KeyValueBinding;
+				PRODUCT_BUNDLE_IDENTIFIER = com.damianjohns.KeyValueCoding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -261,7 +263,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = KeyValueBinding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.damianjohns.KeyValueBinding;
+				PRODUCT_BUNDLE_IDENTIFIER = com.damianjohns.KeyValueCoding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -286,6 +288,7 @@
 				F15B0123254AA70800F03654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
