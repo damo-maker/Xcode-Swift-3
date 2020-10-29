@@ -59,8 +59,7 @@
 				F15B011B254AA70800F03654 /* MainMenu.xib */,
 				F15B011E254AA70800F03654 /* Info.plist */,
 			);
-			name = KeyValueCoding;
-			path = KeyValueBinding;
+			path = KeyValueCoding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
