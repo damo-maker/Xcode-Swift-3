@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F15B0114254AA70800F03654 /* KeyValueBinding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyValueBinding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15B0114254AA70800F03654 /* KeyValueCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyValueCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15B0117254AA70800F03654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F15B0119254AA70800F03654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F15B011C254AA70800F03654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		F15B0115254AA70800F03654 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F15B0114254AA70800F03654 /* KeyValueBinding.app */,
+				F15B0114254AA70800F03654 /* KeyValueCoding.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,9 +64,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F15B0113254AA70700F03654 /* KeyValueBinding */ = {
+		F15B0113254AA70700F03654 /* KeyValueCoding */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F15B0121254AA70800F03654 /* Build configuration list for PBXNativeTarget "KeyValueBinding" */;
+			buildConfigurationList = F15B0121254AA70800F03654 /* Build configuration list for PBXNativeTarget "KeyValueCoding" */;
 			buildPhases = (
 				F15B0110254AA70700F03654 /* Sources */,
 				F15B0111254AA70700F03654 /* Frameworks */,
@@ -76,9 +76,9 @@
 			);
 			dependencies = (
 			);
-			name = KeyValueBinding;
+			name = KeyValueCoding;
 			productName = KeyValueBinding;
-			productReference = F15B0114254AA70800F03654 /* KeyValueBinding.app */;
+			productReference = F15B0114254AA70800F03654 /* KeyValueCoding.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F15B010F254AA70600F03654 /* Build configuration list for PBXProject "KeyValueBinding" */;
+			buildConfigurationList = F15B010F254AA70600F03654 /* Build configuration list for PBXProject "KeyValueCoding" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F15B0113254AA70700F03654 /* KeyValueBinding */,
+				F15B0113254AA70700F03654 /* KeyValueCoding */,
 			);
 		};
 /* End PBXProject section */
@@ -270,7 +270,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F15B010F254AA70600F03654 /* Build configuration list for PBXProject "KeyValueBinding" */ = {
+		F15B010F254AA70600F03654 /* Build configuration list for PBXProject "KeyValueCoding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F15B011F254AA70800F03654 /* Debug */,
@@ -279,7 +279,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F15B0121254AA70800F03654 /* Build configuration list for PBXNativeTarget "KeyValueBinding" */ = {
+		F15B0121254AA70800F03654 /* Build configuration list for PBXNativeTarget "KeyValueCoding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F15B0122254AA70800F03654 /* Debug */,
