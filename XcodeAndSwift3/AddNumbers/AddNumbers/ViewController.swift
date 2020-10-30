@@ -29,7 +29,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func myButton1(_ sender: AnyObject) {
         myLabel1.isHidden = false
         
-        
         let firstValue = Double(myTextField1.text!)
         let secondValue = Double(myTextField2.text!)
         
@@ -43,10 +42,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
-        myTextField1.resignFirstResponder()
-     
-    }
+            myTextField1.resignFirstResponder()
+     }
     
     func textFieldShouldReturn(_ myTextField1: UITextField) -> Bool {
         view.endEditing(true)
