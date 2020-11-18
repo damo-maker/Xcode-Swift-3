@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Conditionals using Boolean Values
+//  A Conditional statement using Boolean Values
 //
 //  Created by Damian Johns on 21/04/2020.
 //  Copyright © 2020 Damian Johns. All rights reserved.
