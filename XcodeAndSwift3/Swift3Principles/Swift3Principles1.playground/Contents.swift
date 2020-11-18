@@ -1,4 +1,5 @@
-import Cocoa
+// comment
+import UIKit
 var str = "Hello Playground"
 var str2 = "Hello Playground2"
 
